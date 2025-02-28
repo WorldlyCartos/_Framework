@@ -35,7 +35,7 @@ class StandAttributesSchema(BaseModel):
     reserved_timber_stand_flag: Optional[str] = None
     sold_flag: Optional[str] = None
     old_oid: Optional[str] = None
-    gng_idx_import_flag: Optional[str] = None
+    cng_edx_import_flag: Optional[str] = None
     decremented_from_ss_flag: Optional[str] = None
     slope: Optional[float] = None
     aspect: Optional[float] = None
