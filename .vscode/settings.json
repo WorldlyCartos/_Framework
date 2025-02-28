@@ -1,0 +1,86 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        },
+        // "editor.fontFamily": "'Monaspace Neon', monospace",
+        // "editor.fontLigatures": true,
+        // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
+    },
+    "black-formatter.args": ["--line-length", "160", "-S"],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#41ebe3",
+        "background": "#00000000",
+        "opacity": 50,
+        "iconColour": "#0000FF"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "#000000",
+            "iconColour": "#FFFF00",
+            "gutterIcon": true
+        }
+    }
+}
+
+
+// {
+//     "python.formatting.provider": "black",
+//     "python.formatting.blackArgs": ["--line-length", "160"],
+//     "python.linting.enabled": true,
+//     "python.analysis.extraPaths": [
+//         "{workspaceFolder}/gate/"
+//     ],
+//     "python.autoComplete.extraPaths": [
+//         "path\\to\\directory"
+//     ],
+//     // "python.formatting.blackArgs": [
+//     //     "-S"
+//     // ],
+//     "editor.formatOnSave": true,
+//     "editor.codeActionsOnSave": {
+//       "source.organizeImports": true
+//     },
+// }
+
+// {
+//     "python.formatting.provider": "black",
+//     // "python.formatting.blackPath": "path/to/your/python/executable",
+//     "editor.codeActionsOnSave": {
+//       "source.organizeImports": true
+//     },
+//     "editor.defaultFormatter": "ms-python.python",
+//     "python.linting.pylintEnabled": false,
+//     "python.linting.enabled": true,
+//     "python.linting.ruffEnabled": true
+//   }
+
+// {
+//     "python.formatting.provider": "black",
+//     "editor.formatOnSave": true,
+//     "editor.codeActionsOnSave": {
+//         "source.organizeImports": true
+//       },
+//     // "editor.defaultFormatter": "ms-python.python",
+//     "python.linting.pylintEnabled": false,
+//     "python.linting.enabled": true,
+//     "python.linting.ruffEnabled": true,
+//     "python.formatting.blackArgs": [["--line-length", "120"], "-S"],
+//     // "python.formatting.blackArgs": [
+//     //     "-S"
+//     // ],
+// }
+

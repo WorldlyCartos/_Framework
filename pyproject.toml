@@ -1,0 +1,23 @@
+[project]
+name = "stands-backend"
+version = "0.1.0"
+description = "Backend API for the Stands application."
+authors = ["Lance Kirby"]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pyodbc",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.8.0",
+]
+
+[tool.black]
+line-length = 150
+target-version = ['py313']
+
+[tool.ruff]
+line-length = 150
+target-version = "py313"
+select = ["E", "F", "W", "C90"]
+exclude = [".venv", "build", "dist"]
